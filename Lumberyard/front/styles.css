@@ -1,0 +1,108 @@
+body {
+    background-color: #E0F7EC; /* fundo verde claro */
+    font-family: 'Playfair Display', serif;
+    color: #034A2B; /* verde escuro para texto */
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: #034A2B; /* verde escuro para texto */
+}
+
+.header {
+    padding: 50px;
+    text-align: center;
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(225, 255, 240, 0.8); /* overlay verde claro */
+    text-shadow: 2px 2px 5px #303030;
+    color: #303030;
+    font-size: 30px;
+}
+
+.newItem {
+    background-color: rgba(225, 255, 240, 0.8); /* verde claro para a área de novo item */
+    padding: 20px 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+input {
+    background-color: white;
+    border: none;
+    padding: 5px;
+    border: 1px solid rgb(98, 170, 128); /* borda verde */
+}
+
+.items {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.close {
+    text-align: center;
+}
+
+.close:hover {
+    color: #f44336;
+    font-weight: bolder;
+}
+
+button {
+    margin-left: 15px;
+    background-color: #A8D5A6; /* verde claro para o botão */
+    border-radius: 4px;
+}
+
+label {
+    font-size: 14px;
+    display: block;
+    margin: 10px;
+}
+
+table, th, td {
+    border: 1px solid rgb(98, 170, 128); /* borda verde */
+    border-collapse: collapse;
+    position: relative;
+    padding: 12px 8px 12px 10px;
+    font-size: 18px;
+    text-align: start;
+}
+
+th {
+    background-color: rgba(225, 255, 240, 0.8); /* verde claro para o cabeçalho da tabela */
+}
+
+table {
+    background-color: white;
+    width: 60%;
+    padding-top: 20px;
+    margin: auto; /* centralizar a tabela */
+}
+
+#nome {
+    width: 40%;
+}
+
+#diadasemana {
+    width: 35%;
+}
+
+#excluir {
+    width: 20px;
+    text-align: center; /* centralizar o botão de exclusão */
+}

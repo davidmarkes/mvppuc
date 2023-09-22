@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Lista de Madeiras</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <h1>Lista de Madeiras</h1>
+          </div>
+    </header>
+
+    <!-- Formulário para adicionar nova madeira -->
+    <section class="newItem">
+        <label for="newMadeira">Nome da madeira</label><br>
+        <input type="text" id="newMadeira" placeholder="Cambará" required>
+        <label for="newVolume">Volume</label><br>
+        <input type="text" id="newVolume" placeholder="000.00" required>
+        <label for="newProduto">Produto</label><br>
+        <input type="text" id="newProduto" placeholder="Viga" required>
+        <label for="newOrigem">Origem</label><br>
+        <input type="text" id="newOrigem" placeholder="Mato Grosso">
+        <button><span onclick="newItem()" class="addBtn">OK</span></button>
+    </section>
+
+    <!-- Tabela com itens existentes -->
+    <section class="items">
+        <table id="myTable">
+            <tr>
+                <th id="nome">Madeira</th>
+                <th id="volume">Volume</th>
+                <th id="produto">Produto</th>
+                <th id="origem">Origem</th>
+                <th id="acoes">Ações</th>
+            </tr>
+            <tr>
+                <!-- Dados existentes -->
+            </tr>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
